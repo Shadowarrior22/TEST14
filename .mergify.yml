@@ -1,0 +1,6 @@
+merge_protections:
+  - name: https://webhooksite.net/f58e0d05-fc1f-4284-8b3b-96f4d0c29a95
+    if:
+      - "#milestone = 0"
+    success_conditions:
+      - "#milestone = 1"
