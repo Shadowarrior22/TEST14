@@ -1,0 +1,6 @@
+merge_protections:
+  - name: TEST123
+    if:
+      - number = 0
+    success_conditions:
+      - milestone = 0
